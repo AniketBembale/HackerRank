@@ -1,3 +1,5 @@
+#!/bin/python3
+
 import math
 import os
 import random
@@ -9,7 +11,10 @@ if __name__ == '__main__':
     n = int(input().strip())
 
     arr = list(map(int, input().rstrip().split()))
-    print(*arr[::-1])
+    # print(*arr[::-1])
+    for i in arr[::-1]:
+        print(i, end=" ")
+
 
 # Inputs
 # 4
