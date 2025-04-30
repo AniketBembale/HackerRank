@@ -2,7 +2,7 @@
 # print((s))
 # s.add('H')
 # print((s))
-# print(s.add('HackerRank')) 
+# print(s.add('HackerRank'))
 # print(s)
 n = int(input())
 s = set(map(int, input().split()))
@@ -19,6 +19,8 @@ for _ in range(N):
         s.discard(int(command[1]))
 
 print(sum(s))
+
+# Inputs
 # 9
 # 1 2 3 4 5 6 7 8 9
 # 10
@@ -27,8 +29,8 @@ print(sum(s))
 # discard 9
 # discard 8
 # remove 7
-# pop 
+# pop
 # discard 6
 # remove 5
-# pop 
+# pop
 # discard 5
