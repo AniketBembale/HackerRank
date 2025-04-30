@@ -1,12 +1,11 @@
-# Read input
+# input
 N, M = map(int, input().split())
-print(N,"\n",M)
+print(N, "\n", M)
 
 # Top half
 for i in range(1, N, 2):
     pattern = (".|." * i).center(M, "-")
     print(pattern)
-    
 
 # Middle line
 print("WELCOME".center(M, "-"))
