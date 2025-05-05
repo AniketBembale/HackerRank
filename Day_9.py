@@ -13,14 +13,14 @@ import sys
 # The function accepts INTEGER n as parameter.
 #
 
+
 def factorial(n):
     # Write your code here
-    if n<=1:
+    if n <= 1:
         return 1
-    else :
+    else:
         return n*factorial(n-1)
-        
-    
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
@@ -33,3 +33,8 @@ if __name__ == '__main__':
 
     fptr.close()
 
+
+# Sample Input
+# 3
+# Sample Output
+# 6
