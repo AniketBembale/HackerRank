@@ -1,13 +1,1 @@
-N1 = int(input())
-s1 = set(map(int, input().split()))
-s2 = set(map(int,input().split()))
-N2 = int(input())
 
-symmetric_difference = s1.symmetric_difference(s2)
-print(len(symmetric_difference))
-    
-# INPUTS
-# 9 
-# 1 2 3 4 5 6 7 8 9
-# 9
-# 10 11 2 1 3 4 5 6 7
