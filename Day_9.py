@@ -1,15 +1,35 @@
-N1 = int(input())
-s1 = set(map(int, input().split()))
-s2 = set(map(int,input().split()))
-N2 = int(input())
+#!/bin/python3
 
-difference = s1.difference(s2)
-print(len(difference))
+import math
+import os
+import random
+import re
+import sys
 
-# INPUTS
-# 9 
-# 1 2 3 4 5 6 7 8 9
-# 9
-# 10 11 2 1 3 4 5 6 2
+#
+# Complete the 'factorial' function below.
+#
+# The function is expected to return an INTEGER.
+# The function accepts INTEGER n as parameter.
+#
 
+def factorial(n):
+    # Write your code here
+    if n<=1:
+        return 1
+    else :
+        return n*factorial(n-1)
+        
+    
+
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    n = int(input().strip())
+
+    result = factorial(n)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
 
