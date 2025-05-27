@@ -46,5 +46,4 @@ mylist.display(head)
 
 # Output
 # Sample Output
-
 # 2 3 4 1
