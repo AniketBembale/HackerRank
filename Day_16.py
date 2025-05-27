@@ -17,10 +17,9 @@ except ValueError:
 
 
 #Input:3
+
 #Output:3
 # Sample Input 1
-
 # za
 # Sample Output 1
-
 # Bad String
